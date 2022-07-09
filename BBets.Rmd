@@ -62,7 +62,7 @@ options(digits = 1)
 print(paste(lcl, ucl))
 ```
 
-The lower end is `r lcl` to the upper end `r ucl`
+
 With Brownlow giving out 2:1 bets the lower end of the money he'd make is `r lcl` and the upper end is `r ucl`. This bet is not a fair bet because he is consistently making money.
 
 
