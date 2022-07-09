@@ -119,4 +119,5 @@ In order to make the bet fair the size of the class must be 28. This gave the cl
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
-To make Brownlow's profits closest to 0 we altered the odds and the class size. By altering the odds to 4.3868 we got his payout near to 0. By altering the class size we got the average profit closest to 0 by making the class size 28. By modyfing the odds we were able to get the profits closer to 0 than by motifying the class size. Brownlow's odds must be 4.3868 in order to make the bet fair.
+To create Brownlow's gains nearest to 0 we changed the chances and the class size. By adjusting the chances to 4.3868 we got his payout close to 0. By adjusting the class size we got the typical benefit nearest to 0 by making the class size 28. By modifying the chances we had the option to draw the benefits nearer to 0 than by modifying the class size. Brownlow's chances should be 4.3868 to make the bet fair.
+
