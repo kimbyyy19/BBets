@@ -89,6 +89,7 @@ print(paste(lcl, ucl))
 ```
 
 
+The fair odds for BrownLow's bet are 4.3868. This gave us the closest average to 0. That tells us that these odds are fair because he is not earning anything on average. The mean is `r mean(Odds40)` with the lowest amount made being `r lcl` and the highest amount made being `r ucl`.
 
 
 
@@ -98,11 +99,20 @@ print(paste(lcl, ucl))
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
-The fair odds for BrownLow's bet are 4.3868. This gave us the closest average to 0. That tells us that these odds are fair because he is not earning anything on average. The mean is `r mean(Odds40)` with the lowest amount made being `r lcl` and the highest amount made being `r ucl`.
 
+```{r}
+Class40 <- vector("numeric")
+for(i in 1: 1000){
+  Class40[i] <- BrLw(numClass = 28)
+}
+favstats(Class40)
+lcl <- mean(Class40) - 2*sd(Class40)
+ucl <- mean(Class40) + 2*sd(Class40)
+options(digits = 1)
+print(paste(lcl, ucl))
+```
 
-
-
+In order to make the bet fair the size of the class must be 28. This gave the closest average to 0 with only modifying the class size. The mean is `r mean(Class40)`, with the lowest amount earned being `r lcl` and the highest amount earned being `r ucl`.
 
 
 # Discussion and Conclusion
