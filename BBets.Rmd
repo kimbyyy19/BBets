@@ -47,7 +47,7 @@ The function will be given a class_size by number of students, odds, and Number_
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
 
 
-were going to bulid an arry with no different subtiote doing the averge of the sutide teacher.
+We're going to build an array with 40 different substitute teachers doing the same bet Brownlow did, and we will see what the average is that the teachers made.
 
 
 ```{r}
@@ -62,12 +62,8 @@ options(digits = 1)
 print(paste(lcl, ucl))
 ```
 
-
+The lower end is `r lcl` to the upper end `r ucl`
 With Brownlow giving out 2:1 bets the lower end of the money he'd make is `r lcl` and the upper end is `r ucl`. This bet is not a fair bet because he is consistently making money.
-
-
-
-
 
 
 
@@ -115,9 +111,22 @@ print(paste(lcl, ucl))
 In order to make the bet fair the size of the class must be 28. This gave the closest average to 0 with only modifying the class size. The mean is `r mean(Class40)`, with the lowest amount earned being `r lcl` and the highest amount earned being `r ucl`.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
 To create Brownlow's gains nearest to 0 we changed the chances and the class size. By adjusting the chances to 4.3868 we got his payout close to 0. By adjusting the class size we got the typical benefit nearest to 0 by making the class size 28. By modifying the chances we had the option to draw the benefits nearer to 0 than by modifying the class size. Brownlow's chances should be 4.3868 to make the bet fair.
-
